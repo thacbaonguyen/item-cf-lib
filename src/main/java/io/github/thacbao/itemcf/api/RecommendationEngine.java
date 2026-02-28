@@ -51,11 +51,6 @@ public class RecommendationEngine {
                 config.getSimilarityThreshold(),
                 config.getMinCommonUsers());
     }
-
-    // ─────────────────────────────────────────────────────────────────────────
-    // Calculation
-    // ─────────────────────────────────────────────────────────────────────────
-
     /**
      * Runs a full recalculation of all item-similarity scores
      */

@@ -4,17 +4,6 @@ import java.util.Map;
 
 /**
  * Strategy interface for computing the similarity score between two items.
- *
- * <p>
- * Each item is represented as a sparse vector: a {@link Map} from user ID
- * to the interaction score that user gave to the item.
- * </p>
- *
- * <p>
- * To add a new similarity algorithm, implement this interface and pass the
- * implementation to
- * {@link io.github.thacbao.itemcf.config.RecommendationConfig.Builder#strategy(SimilarityStrategy)}.
- * </p>
  */
 @FunctionalInterface
 public interface SimilarityStrategy {

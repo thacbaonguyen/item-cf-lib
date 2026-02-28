@@ -11,7 +11,7 @@
 
     <name>ItemCF — Item-based Collaborative Filtering Library</name>
     <description>A pure Java library for Item-based Collaborative Filtering with pluggable similarity strategies.</description>
-    <url>https://github.com/thacbao/itemcf</url>
+    <url>https://github.com/thacbaonguyen/item-cf-lib</url>
 
     <properties>
         <java.version>17</java.version>
@@ -19,7 +19,6 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <!-- Dependency versions -->
         <slf4j.version>2.0.12</slf4j.version>
         <junit.version>5.10.2</junit.version>
         <assertj.version>3.25.3</assertj.version>
@@ -28,7 +27,6 @@
     </properties>
 
     <dependencies>
-        <!-- ===== COMPILE SCOPE — Only slf4j-api ===== -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>

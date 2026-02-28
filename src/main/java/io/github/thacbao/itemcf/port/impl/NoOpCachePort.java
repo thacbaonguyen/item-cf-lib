@@ -7,7 +7,6 @@ import java.util.Optional;
 
 public class NoOpCachePort implements CachePort {
 
-    /** Singleton instance — stateless, safe to share across threads. */
     public static final NoOpCachePort INSTANCE = new NoOpCachePort();
 
     private NoOpCachePort() {

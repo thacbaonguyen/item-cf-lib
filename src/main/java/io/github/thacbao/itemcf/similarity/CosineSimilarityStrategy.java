@@ -6,9 +6,6 @@ import java.util.Set;
 
 public class CosineSimilarityStrategy implements SimilarityStrategy {
 
-    /**
-     * Singleton instance — stateless, safe to share across threads.
-     */
     public static final CosineSimilarityStrategy INSTANCE = new CosineSimilarityStrategy();
 
     @Override
