@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"io.github.thacbao.itemcf.api"},{"l":"io.github.thacbao.itemcf.config"},{"l":"io.github.thacbao.itemcf.core"},{"l":"io.github.thacbao.itemcf.model"},{"l":"io.github.thacbao.itemcf.port"},{"l":"io.github.thacbao.itemcf.port.impl"},{"l":"io.github.thacbao.itemcf.similarity"}];updateSearchResults();
