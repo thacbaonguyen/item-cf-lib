@@ -4,14 +4,35 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.thacbao</groupId>
+    <groupId>io.github.thacbaonguyen</groupId>
     <artifactId>itemcf</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>ItemCF — Item-based Collaborative Filtering Library</name>
-    <description>A pure Java library for Item-based Collaborative Filtering with pluggable similarity strategies.</description>
+    <description>A pure Java library for Item-based Collaborative Filtering with pluggable similarity strategies</description>
     <url>https://github.com/thacbaonguyen/item-cf-lib</url>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>thacbaonguyen</id>
+            <name>Nguyen Thac Bao</name>
+            <email>ar.thbaonguyen@gmail.com</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/thacbaonguyen/item-cf-lib.git</connection>
+        <developerConnection>scm:git:ssh://github.com/thacbaonguyen/item-cf-lib.git</developerConnection>
+        <url>https://github.com/thacbaonguyen/item-cf-lib</url>
+    </scm>
 
     <properties>
         <java.version>17</java.version>
@@ -81,6 +102,7 @@
                 </configuration>
             </plugin>
 
+            <!--source-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
@@ -95,6 +117,7 @@
                 </executions>
             </plugin>
 
+            <!--java doc-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
@@ -112,20 +135,33 @@
                     </execution>
                 </executions>
             </plugin>
+
+            <!-- GPG signing-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <version>3.2.4</version>
+                <executions>
+                    <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
+                        <goals><goal>sign</goal></goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!-- Central publishing -->
+            <plugin>
+                <groupId>org.sonatype.central</groupId>
+                <artifactId>central-publishing-maven-plugin</artifactId>
+                <version>0.9.0</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <publishingServerId>central</publishingServerId>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
-    <licenses>
-        <license>
-            <name>Apache License, Version 2.0</name>
-            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
-        </license>
-    </licenses>
 
-    <developers>
-        <developer>
-            <id>thacbao</id>
-            <name>thacbao</name>
-        </developer>
-    </developers>
 </project>
