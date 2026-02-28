@@ -90,9 +90,9 @@ Then declare the dependency in your consuming project:
 
 ```xml
 <dependency>
-    <groupId>io.github.thacbao</groupId>
-    <artifactId>itemcf</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+  <groupId>io.github.thacbaonguyen</groupId>
+  <artifactId>itemcf</artifactId>
+  <version>1.0.0</version>
 </dependency>
 ```
 
