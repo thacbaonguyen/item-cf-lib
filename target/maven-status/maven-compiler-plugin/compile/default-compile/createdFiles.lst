@@ -1,0 +1,15 @@
+io/github/thacbao/itemcf/core/InteractionMatrix.class
+io/github/thacbao/itemcf/api/RecommendationEngine.class
+io/github/thacbao/itemcf/model/Interaction.class
+io/github/thacbao/itemcf/port/impl/NoOpCachePort.class
+io/github/thacbao/itemcf/port/CachePort.class
+io/github/thacbao/itemcf/core/SimilarityCalculator.class
+io/github/thacbao/itemcf/similarity/SimilarityStrategy.class
+io/github/thacbao/itemcf/config/RecommendationConfig$Builder.class
+io/github/thacbao/itemcf/config/RecommendationConfig.class
+io/github/thacbao/itemcf/model/RecommendationResult.class
+io/github/thacbao/itemcf/port/InteractionLoader.class
+io/github/thacbao/itemcf/port/impl/InMemorySimilarityStore.class
+io/github/thacbao/itemcf/similarity/CosineSimilarityStrategy.class
+io/github/thacbao/itemcf/model/SimilarityResult.class
+io/github/thacbao/itemcf/port/SimilarityStore.class

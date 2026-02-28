@@ -1,0 +1,58 @@
+@options
+@packages
+-classpath
+'/home/thacbao/.m2/repository/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'/home/thacbao/Documents/project/itemcf/src/main/java:/home/thacbao/Documents/project/itemcf/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2026. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/thacbao/Documents/project/itemcf/target/apidocs'
+-docencoding
+'UTF-8'
+-Xdoclint:none
+-doctitle
+'ItemCF — Item-based Collaborative Filtering Library 0.1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'ItemCF — Item-based Collaborative Filtering Library 0.1.0-SNAPSHOT API'
+io.github.thacbao.itemcf.model
+io.github.thacbao.itemcf.port
+io.github.thacbao.itemcf.port.impl
+io.github.thacbao.itemcf.similarity
+io.github.thacbao.itemcf.config
+io.github.thacbao.itemcf.core
+io.github.thacbao.itemcf.api
+/home/thacbao/.m2/repository/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar = 1772279242383
+/home/thacbao/Documents/project/itemcf/src/main/java = 1772280181762
+/home/thacbao/Documents/project/itemcf/target/generated-sources/annotations = 1772280358487
+/home/thacbao/Documents/project/itemcf/target/apidocs/element-list = 1772280362096
+/home/thacbao/Documents/project/itemcf/target/apidocs/constant-values.html = 1772280362127
+/home/thacbao/Documents/project/itemcf/target/apidocs/overview-tree.html = 1772280362179
+/home/thacbao/Documents/project/itemcf/target/apidocs/index.html = 1772280362181
+/home/thacbao/Documents/project/itemcf/target/apidocs/allclasses-index.html = 1772280362199
+/home/thacbao/Documents/project/itemcf/target/apidocs/allpackages-index.html = 1772280362202
+/home/thacbao/Documents/project/itemcf/target/apidocs/module-search-index.js = 1772280362203
+/home/thacbao/Documents/project/itemcf/target/apidocs/package-search-index.js = 1772280362203
+/home/thacbao/Documents/project/itemcf/target/apidocs/type-search-index.js = 1772280362203
+/home/thacbao/Documents/project/itemcf/target/apidocs/member-search-index.js = 1772280362203
+/home/thacbao/Documents/project/itemcf/target/apidocs/tag-search-index.js = 1772280362204
+/home/thacbao/Documents/project/itemcf/target/apidocs/index-all.html = 1772280362224
+/home/thacbao/Documents/project/itemcf/target/apidocs/search.html = 1772280362225
+/home/thacbao/Documents/project/itemcf/target/apidocs/overview-summary.html = 1772280362227
+/home/thacbao/Documents/project/itemcf/target/apidocs/help-doc.html = 1772280362229
+/home/thacbao/Documents/project/itemcf/target/apidocs/stylesheet.css = 1772280362231
+/home/thacbao/Documents/project/itemcf/target/apidocs/script.js = 1772280362231
+/home/thacbao/Documents/project/itemcf/target/apidocs/copy.svg = 1772280362231
+/home/thacbao/Documents/project/itemcf/target/apidocs/link.svg = 1772280362232
+/home/thacbao/Documents/project/itemcf/target/apidocs/search.js = 1772280362233
+/home/thacbao/Documents/project/itemcf/target/apidocs/search-page.js = 1772280362233
